@@ -169,6 +169,8 @@ function getOrientation() {
 
   switch(_orn){
       case 'portrait-primary':
+          location.reload(true);
+          break;
       case 'portrait-secondary':
           // Handle portrait orientation if needed
           location.reload(true);
