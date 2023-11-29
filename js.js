@@ -19,7 +19,7 @@ function reorderDivs() {
 
     // Set the height of specified boxes to be the same as box 2
     const specifiedBoxes = document.querySelectorAll('#box2, #box3, #box4, #box5, #box6, #box7, #box8');
-    let box2Height = document.getElementById('box4').offsetHeight;
+    let box2Height = document.getElementById('box5').offsetHeight;
 
     specifiedBoxes.forEach(box => {
       box.style.height = `${box2Height}px`;
