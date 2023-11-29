@@ -39,6 +39,15 @@ window.addEventListener('load', reorderDivs);
 // Reorder Divs on resize
 window.addEventListener('resize', reorderDivs);
 
+// Function to handle orientation change
+    function handleOrientationChange() {
+      // Call reorderdivs on orientation change
+      reorderdivs();
+    }
+
+    // Event listener for orientation change
+    window.addEventListener('orientationchange', handleOrientationChange);
+
 // JavaScript to dynamically center the text1 div vertically
 function centerChildVertically() {
     // Check if the window width is above 600px
