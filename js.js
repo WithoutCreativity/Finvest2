@@ -39,13 +39,6 @@ window.addEventListener('load', reorderDivs);
 // Reorder Divs on resize
 window.addEventListener('resize', reorderDivs);
 
-// Reload on resize to switch between mobile and desktop views
-window.addEventListener('resize', reloadOnResize);
-
-function reloadOnResize() {
-    location.reload();
-}
-
 // JavaScript to dynamically center the text1 div vertically
 function centerChildVertically() {
     // Check if the window width is above 600px
