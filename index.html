@@ -521,10 +521,10 @@
         <div class="box merge" id="box10">
             <div id="form">
                 <form class="form" method="post" action="https://sheetdb.io/api/v1/xiki1cnf332f6" id="sheetdb-form">
-                    <input type="text" id="first-name" class="form-field" name="data[first-name]" placeholder="First name" required>
-                    <input type="text" id="last-name" class="form-field" name="data[last-name]" placeholder="Last name" required>
-                    <input type="email" id="email" class="form-field" name="data[email]" placeholder="Email address" required>
-                    <input type="tel" id="phone" class="form-field" name="data[phone]" placeholder="Telephone number" required>
+                    <input type="text" id="first-name" class="form-field" autocomplete="given-name" name="data[first-name]" placeholder="First name" required>
+                    <input type="text" id="last-name" class="form-field" autocomplete="family-name" name="data[last-name]" placeholder="Last name" required>
+                    <input type="email" id="email" class="form-field" autocomplete="email" name="data[email]" placeholder="Email address" required>
+                    <input type="tel" id="phone" class="form-field" autocomplete="tel" name="data[phone]" placeholder="Telephone number" required>
 
                     <!-- Hidden fields for automatic date and time -->
                     <input type="hidden" id="submission-date" name="data[submission-date]">
