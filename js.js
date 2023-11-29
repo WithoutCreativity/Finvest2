@@ -87,15 +87,19 @@ function getOrientation() {
 
     switch (_orn) {
         case 'portrait-primary':
+            reorderDivs();
+            centerChildVertically();
         case 'portrait-secondary':
+            reorderDivs();
+            centerChildVertically();
             break;
         case 'landscape-primary':
-            console.log('This is the laptop/desktop version');
-            // Call functions to reload
             reorderDivs();
             centerChildVertically();
             break;
         case 'landscape-secondary':
+            reorderDivs();
+            centerChildVertically();
             break;
         case undefined:
             //not supported
